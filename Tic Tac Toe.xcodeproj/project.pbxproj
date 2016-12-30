@@ -14,6 +14,9 @@
 		0D8A16581E13957E00DA8C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A16561E13957E00DA8C62 /* LaunchScreen.storyboard */; };
 		0D8A16631E13957F00DA8C62 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A16621E13957F00DA8C62 /* Tic_Tac_ToeTests.swift */; };
 		0D8A166E1E13957F00DA8C62 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A166D1E13957F00DA8C62 /* Tic_Tac_ToeUITests.swift */; };
+		0D8A167F1E1395C800DA8C62 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A167C1E1395C800DA8C62 /* board.png */; };
+		0D8A16801E1395C800DA8C62 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A167D1E1395C800DA8C62 /* cross.png */; };
+		0D8A16811E1395C800DA8C62 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A167E1E1395C800DA8C62 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0D8A16691E13957F00DA8C62 /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8A166D1E13957F00DA8C62 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		0D8A166F1E13957F00DA8C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8A167C1E1395C800DA8C62 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		0D8A167D1E1395C800DA8C62 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		0D8A167E1E1395C800DA8C62 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		0D8A16411E13957E00DA8C62 = {
 			isa = PBXGroup;
 			children = (
+				0D8A167B1E1395B900DA8C62 /* Images */,
 				0D8A164C1E13957E00DA8C62 /* Tic Tac Toe */,
 				0D8A16611E13957F00DA8C62 /* Tic Tac ToeTests */,
 				0D8A166C1E13957F00DA8C62 /* Tic Tac ToeUITests */,
@@ -123,6 +130,16 @@
 				0D8A166F1E13957F00DA8C62 /* Info.plist */,
 			);
 			path = "Tic Tac ToeUITests";
+			sourceTree = "<group>";
+		};
+		0D8A167B1E1395B900DA8C62 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0D8A167C1E1395C800DA8C62 /* board.png */,
+				0D8A167D1E1395C800DA8C62 /* cross.png */,
+				0D8A167E1E1395C800DA8C62 /* nought.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +210,7 @@
 				TargetAttributes = {
 					0D8A16491E13957E00DA8C62 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PV2377M74G;
 						ProvisioningStyle = Automatic;
 					};
 					0D8A165D1E13957F00DA8C62 = {
@@ -232,6 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8A16801E1395C800DA8C62 /* cross.png in Resources */,
+				0D8A167F1E1395C800DA8C62 /* board.png in Resources */,
+				0D8A16811E1395C800DA8C62 /* nought.png in Resources */,
 				0D8A16581E13957E00DA8C62 /* LaunchScreen.storyboard in Resources */,
 				0D8A16551E13957E00DA8C62 /* Assets.xcassets in Resources */,
 				0D8A16531E13957E00DA8C62 /* Main.storyboard in Resources */,
@@ -412,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV2377M74G;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.veereev.Tic-Tac-Toe";
@@ -424,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV2377M74G;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.veereev.Tic-Tac-Toe";
